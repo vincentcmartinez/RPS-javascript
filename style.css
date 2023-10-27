@@ -1,0 +1,94 @@
+
+body {
+    background-color: rgb(23, 22, 34);
+}
+.header {
+    box-shadow: 0 0 30px #000000;
+    background-image: linear-gradient(180deg, rgb(75, 45, 103), rgb(50, 30, 68));
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(50, 30, 68);
+}
+
+h1, p {
+    text-shadow : 0 0 20px rgb(231, 99, 225);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(173, 66, 168);
+}
+.scoreboard {
+    box-shadow: 0 0 30px #000000;
+    background-image: linear-gradient(180deg, rgb(75, 45, 103), rgb(50, 30, 68));
+    border-radius: 200px;
+    margin: 4vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(23, 22, 34);
+}
+
+#roundNumVisual,#resultVisual {
+    text-shadow : 0 0 20px rgb(231, 99, 225);
+    box-shadow: inset 0 0 20px #000000,0 0 20px #000000;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 50px;
+    background-color: rgb(23, 22, 34);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 15%;
+    font-size: 35px;
+}
+
+
+p {
+    background-color: white;
+}
+
+.scores {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.scores p {
+    box-shadow: inset 0 0 20px #000000,0 0 20px #000000;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 50px;
+    background-color: rgb(23, 22, 34);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    height: 200%;
+}
+
+.choices {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+button {
+    text-shadow : 0 1px 20px rgb(231, 99, 225);
+    box-shadow: 0 0 30px #000000;
+    background-image: linear-gradient(180deg, rgb(75, 45, 103), rgb(50, 30, 68));
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color:rgb(173, 66, 168);
+    background-color: rgb(50, 30, 68);
+    border-radius: 50px;
+    height: 10vh;
+    width: 15vw;
+    border-width: 0;
+}
